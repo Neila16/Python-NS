@@ -1,6 +1,6 @@
 lastname, firstname = input("Your last name, first name?").split()
 age = input("How old are you?")
 phonenumber = input("Your phone number?") 
-print("Your first name, last name:", lastname, firstname) 
+print("Your first name, last name:", firstname, lastname) 
 print("Your age:", age)
 print("Your phone number:", phonenumber)
