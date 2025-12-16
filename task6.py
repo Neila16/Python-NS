@@ -9,9 +9,6 @@ elif operatoin == "-":
 elif operatoin == "*":
     print(num1 * num2)
 elif operatoin == "/":
-    if num2 == 0:
-        print("it is impossible to divide by zero")
-    else:
-        print(num1 / num2)
+    print(num1 / num2)
 else:
     print("Error")
