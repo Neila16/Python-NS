@@ -1,20 +1,18 @@
-def inside_circle(x, y, xa, yb, R):
+def incircle(x, y, xa, yb, R):
     return (x - xa)**2 + (y - yb)**2 < R**2
 
-xc, yc, R = map(float, input("Ente xc yc and R: ").split())
-
-px, py = map(float, input("Enter P coordinates: ").split())
-fx, fy = map(float, input("Enter F coordinates: ").split())
-lx, ly = map(float, input("Enter L coordinates: ").split())
+xa, yb, R = map(float, input().split())
+px, py = map(float, input().split())
+fx, fy = map(float, input().split())
+lx, ly = map(float, input().split())
 
 count = 0
-if inside_circle(px, py, xc, yc, R):
+if incircle(px, py, xa, yb, R):
     count += 1
-if inside_circle(fx, fy, xc, yc, R):
+if incircle(fx, fy, xa, yb, R):
     count += 1
-if inside_circle(lx, ly, xc, yc, R):
+if incircle(lx, ly, xa, yb, R):
     count += 1
-
-print("Number of points inside the circle:", count)
+print("How many points lie inside the circle", count)
 
 
