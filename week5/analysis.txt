@@ -1,0 +1,13 @@
+Lines: 4
+Words: 13
+Word frequency:
+hello: 3
+world: 1
+word: 2
+phone: 1
+laptop: 1
+bed: 1
+just: 1
+a: 1
+sentense: 1
+with: 1
